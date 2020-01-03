@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  margin: auto;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 30px;
+  z-index: 1;
+  .nav-item {
+    .nav-link {
+      font-size: 20px;
+      padding-right: 35px;
+    }
+  }
+}
+
+section {
+  .hero-image {
+    height: 100vh;
+    width: 100%;
+    background-image: url("/assets/backgrounds/Rectangle\ 11.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .heroText {
+      color: #fff;
+      padding: 310px 200px 20px 50px;
+      h2 {
+        font-size: 8em;
+        font-weight: 300;
+        letter-spacing: 8px;
+      }
+      h1 {
+        font-size: 10em;
+        font-weight: 600;
+        letter-spacing: 8px;
+      }
+    }
+    .heroImg {
+      padding: 110px 50px 0px 0px;
+    }
+    .bitcoin {
+      position: relative;
+      top: 120px;
+
+      .bitcoin-1 {
+        position: relative;
+        left: 35px;
+      }
+    }
+  }
+}
+
+section {
+  .heading {
+    font-size: 70px;
+    letter-spacing: 8px;
+    background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .row {
+    .icons {
+      padding: 80px 100px;
+      transition: transform 0.2s;
+      &:hover {
+        transform: scale(1.1);
+      }
+      .icon-service {
+        margin-bottom: 10px;
+      }
+      .text-service {
+        font-size: 28px;
+        font-weight: 600;
+        letter-spacing: 2px;
+      }
+    }
+    .btn {
+      padding: 12px 65px;
+      font-size: 26px;
+      font-weight: 600;
+      border-radius: 15px;
+      border: 3px solid #0045c1;
+      background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: 2px;
+    }
+    .modal-content {
+      padding: 50px;
+      .list-service {
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 2px;
+      }
+    }
+  }
+}
+
+.trendy {
+  position: relative;
+  .trend-heading {
+    margin-bottom: 2em;
+    font-size: 70px;
+    letter-spacing: 2px;
+    margin-top: 110px;
+    color: #fff;
+    font-weight: 300;
+  }
+  .row {
+    .trends {
+      .trend-text {
+        font-size: 30px;
+        font-weight: 400;
+        color: #fff;
+        letter-spacing: 2px;
+      }
+      .card {
+        position: relative;
+        border: none !important;
+        width: 30rem;
+        margin: auto;
+        border-radius: 85px;
+        .card-body {
+          position: absolute;
+          top: 40%;
+          left: 22%;
+          .btn-trendy {
+            padding: 12px 65px;
+            font-size: 26px;
+            font-weight: 600;
+            border-radius: 15px;
+            border: 3px solid #0045c1;
+            color: #0045c1;
+            background-color: #fff;
+            letter-spacing: 2px;
+          }
+        }
+      }
+    }
+  }
+
+  .trend-bg {
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    top: -170px;
+  }
+}
+
+.contact-section {
+  background-image: url("../assets/backgrounds/Rectangle\ 13.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
